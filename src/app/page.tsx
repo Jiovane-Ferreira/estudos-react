@@ -1,8 +1,24 @@
+import {Square, Circle} from '@/components/Geo';
+
 function Pagina() {
   return (
-    <div>
-      <h1 className="font-bold text-lg text-orange-600 text-center mt-5">Olá, Mundo</h1>
+
+    <div className="container mx-auto">
+
+      <div className="flex gap-2 justify-center">
+
+        <div className="rounded-md bg-blue-500 text-white p-4">1</div>
+        <div className="rounded-md bg-blue-500 text-white p-4">2</div>
+        <div className="rounded-md bg-blue-500 text-white p-4">3</div>
+        <div className="rounded-md bg-blue-500 text-white p-4">4</div>
+
+        <Square/>
+        <Circle />
+
+      </div>
+
     </div>
+  
   );
 }
 
