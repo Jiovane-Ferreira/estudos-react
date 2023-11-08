@@ -1,25 +1,17 @@
-import {Square, Circle} from '@/components/Geo';
+
 
 function Pagina() {
   return (
 
     <div className="container mx-auto">
 
-      <div className="flex gap-2 justify-center">
-
-        <div className="rounded-md bg-blue-500 text-white p-4">1</div>
-        <div className="rounded-md bg-blue-500 text-white p-4">2</div>
-        <div className="rounded-md bg-blue-500 text-white p-4">3</div>
-        <div className="rounded-md bg-blue-500 text-white p-4">4</div>
-
-        <Square/>
-        <Circle />
-
-      </div>
+     <div className="w-12 h-12 border-8 border-blue-200 border-r-blue-600 rounded-full animate-spin"></div>
 
     </div>
+
+    
   
-  );
+  )
 }
 
 export default Pagina;
